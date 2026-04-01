@@ -1,5 +1,4 @@
-import { API_KEY } from "./config.js";
-let url = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=`;
+let url = `http://localhost:3000/weather?city=`;
 
 const container = document.createElement('div');
 document.body.appendChild(container);
