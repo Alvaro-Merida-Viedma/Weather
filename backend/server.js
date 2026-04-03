@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get("/", async (req, res) => {
+app.get("/weather", async (req, res) => {
     try {
         const city = req.query.city;
 
