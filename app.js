@@ -1,4 +1,4 @@
-let url = `http://localhost:3000/weather?city=`;
+let url = `https://weather-api-project-ma6f.onrender.com/weather?city=`;
 
 const container = document.createElement('div');
 document.body.appendChild(container);
